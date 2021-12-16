@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+参考HP
+https://zenn.dev/shima_zu/articles/active_job_sidekiq#3.-active-job%E3%81%AE%E8%A8%AD%E5%AE%9A
+
+
