@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  db:
+    ports:
+      - 3306:3306
+  web:
+    ports:
+      - 3000:3000
+  chrome:
+    ports:
+      - 4444:4444
+  redis:
+    ports:
+      - 6379:6379
