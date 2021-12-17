@@ -4,4 +4,6 @@
 :pidfile: ./tmp/pids/sidekiq.pid
 :logfile: ./log/sidekiq.log
 :queues:
-  - development_default
+  - [development_default, 1]
+  - [development_mailers, 9]
+:daemon: true
